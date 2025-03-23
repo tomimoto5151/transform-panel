@@ -1,20 +1,37 @@
-# Introduction
+# Transform Panel
 
-This starter plugin is a good place to get started when developing for Photoshop. It does not rely on any frameworks or build steps -- hence the name "Vanilla".
+![license](https://img.shields.io/badge/license-MIT-green)
 
-## Compatibility
+A professional transformation tool for Photoshop that provides 3D-style transform controls for precise adjustments of position, rotation, scale, and dimensions.
 
-Since Photoshop 
+## 🚀 Features
 
-## Getting Started
+- 📐 Complete transformation controls familiar to 3D artists (move, rotate, scale, adjust dimensions)
+- 🔒 Lock previous values for repeated execution
+- 👥 Apply transformations to multiple objects simultaneously
+- 📏 Bonus feature: Organize layers by reference coordinates
+- 🇯🇵 Japanese language support only
 
-Make sure Photoshop is up and running first. First, add the plugin to the "Developer Workspace" in the UXP Developer Tools (UDT) application.
-  * If you selected "Create Plugin..." earlier, it will have already be there with the plugin ID and name you specified. 
-  * Otherwise, click "Add Plugin" and select the `manifest.json` file in the corresponding plugin folder.
+## 💻 Requirements
 
-Click the ••• button next to the corresponding workspace entry, and click "Load". Switch over to Photoshop, and the plugin's panel will be running. 
+- Photoshop 2025
 
-## Documentation
+## 🔧 Installation
 
-* Read more about creating and debugging plugins using the UDT application [here](https://developer.adobe.com/photoshop/uxp/2022/guides/devtool/udt-walkthrough/). 
-* We build on this starter template and show you how to [edit a document](https://developer.adobe.com/photoshop/uxp/2022/guides/getting-started/editing-the-document/) and [write a file](https://developer.adobe.com/photoshop/uxp/2022/guides/getting-started/writing-a-file/) using UXP. 
+1. Download the .ccx file from the release page
+2. Launch Photoshop
+3. Double-click the downloaded .ccx file while Photoshop is running
+
+## 📱 Usage
+
+1. Open the Transform Panel from Photoshop's plugin panel
+2. Enter values in the respective input fields
+3. Click the play button to execute transformations
+4. Use the lock button to record values, refresh button to clear values
+5. The chain button in dimensions section locks aspect ratio
+6. The ↕ button in the Auto Layer feature inverts coordinates
+7. This tool is designed to be intuitive - try it out to get familiar with it!
+
+## 📞 Contact
+
+- Discord: #tomimoto5151
