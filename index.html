@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="panel" id="mainPanel">
+        <!-- Property Section -->
+        <div class="section">
+            <div class="heading">選択オブジェクトのサイズ</div>
+            <div class="row xy-row">
+                <div class="label">X:</div>
+                <div id="sizeX">100px</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">Y:</div>
+                <div id="sizeY">100px</div>
+            </div>
+        </div>
+
+        <!-- Transform Section -->
+        <div class="section">
+            <div class="heading">Transform</div>
+            
+            <!-- Position -->
+            <div class="row">
+                <div class="label">位置</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">X</div>
+                <input type="number" id="posX" />
+                <div class="unit">px</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">Y</div>
+                <input type="number" id="posY" />
+                <div class="unit">px</div>
+            </div>
+            <div class="button-container">
+                <button id="lockPosition" class="lock-button">🔒️</button>
+                <button id="refreshPosition" class="refresh-button">⟳</button>
+                <button id="applyPosition" class="play-button">▶</button>
+            </div>
+            
+            <!-- Rotation -->
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="label">回転</div>
+            </div>
+            <div class="row">
+                <div class="label">Angle</div>
+                <input type="number" id="rotation" />
+                <div class="unit">°</div>
+            </div>
+            <div class="button-container">
+                <button id="lockRotation" class="lock-button">🔒</button>
+                <button id="refreshRotation" class="refresh-button">⟳</button>
+                <button id="applyRotation" class="play-button">▶</button>
+            </div>
+            
+            <!-- Scale -->
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="label">スケール</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">X</div>
+                <input type="number" id="scaleX" />
+                <div class="unit">倍</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">Y</div>
+                <input type="number" id="scaleY" />
+                <div class="unit">倍</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">Both</div>
+                <input type="number" id="scaleBoth" />
+                <div class="unit">倍</div>
+            </div>
+            <div class="button-container">
+                <button id="lockScale" class="lock-button">🔒</button>
+                <button id="refreshScale" class="refresh-button">⟳</button>
+                <button id="applyScale" class="play-button">▶</button>
+            </div>
+            
+            <!-- Dimensions -->
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="label">寸法</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">X</div>
+                <input type="number" id="dimX" />
+                <div class="unit">px</div>
+            </div>
+            <div class="row xy-row">
+                <div class="label">Y</div>
+                <input type="number" id="dimY" />
+                <div class="unit">px</div>
+            </div>
+            <div class="button-container">
+                <button id="aspectRatioLock" class="aspect-ratio-button">⛓</button>
+                <button id="lockDimensions" class="lock-button">🔒</button>
+                <button id="refreshDimensions" class="refresh-button">⟳</button>
+                <button id="applyDimensions" class="play-button">▶</button>
+            </div>
+        </div>
+        
+        <!-- Auto Layer -->
+        <div class="section">
+            <div class="heading">オートレイヤー整理</div>
+            <div class="row">
+                <div class="label">対象</div>
+                <div class="tabs">
+                    <div class="tab" id="tabLayerX">X</div>
+                    <div class="tab active" id="tabLayerY">Y</div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="invertLayerOrder" class="invert-button">↕</button>
+                <button id="applyAutoLayer" class="play-button">▶</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/selection.js"></script>
+    <script src="js/transform.js"></script>
+    <script src="js/autoLayer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
