@@ -36,4 +36,4 @@
 
 ## 📞 コンタクト
 
-＊ Discord: #tomimoto5151
+* Discord: #tomimoto5151
