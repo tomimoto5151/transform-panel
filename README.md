@@ -2,36 +2,38 @@
 
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-A professional transformation tool for Photoshop that provides 3D-style transform controls for precise adjustments of position, rotation, scale, and dimensions.
+位置、回転、スケール、寸法を数値ベースで素早くトランスフォームできるUXPプラグインです
 
-## 🚀 Features
+簡単にインストール出来てパネルとして常駐できます
 
-- 📐 Complete transformation controls familiar to 3D artists (move, rotate, scale, adjust dimensions)
-- 🔒 Lock previous values for repeated execution
-- 👥 Apply transformations to multiple objects simultaneously
-- 📏 Bonus feature: Organize layers by reference coordinates
-- 🇯🇵 Japanese language support only
+## 🚀 主な機能
+* 3Dアーティストに馴染みのある座標トランスフォーム
+* 繰り返し実行のための値をロック機能搭載
+* 複数のオブジェクトに同時にトランスフォームを実行
+* ボーナス機能→参照座標でレイヤーを整理
 
-## 💻 Requirements
+## 💻 要件
 
 - Photoshop 2025
 
-## 🔧 Installation
+## 🔧 セットアップ
 
-1. Download the .ccx file from the release page
-2. Launch Photoshop
-3. Double-click the downloaded .ccx file while Photoshop is running
+1. 本ページのReleasesからccxファイルをダウンロードし、任意の場所に保存します
+2. Photoshopを起動します
+3. ccxファイルをダブルクリックで実行してプラグインとしてインストールします
 
-## 📱 Usage
+## 📱 使い方
 
-1. Open the Transform Panel from Photoshop's plugin panel
-2. Enter values in the respective input fields
-3. Click the play button to execute transformations
-4. Use the lock button to record values, refresh button to clear values
-5. The chain button in dimensions section locks aspect ratio
-6. The ↕ button in the Auto Layer feature inverts coordinates
-7. This tool is designed to be intuitive - try it out to get familiar with it!
+1. Photoshopのプラグインパネルから「Transform Panel」を開きます
+2. 各入力欄に数字を入れます
+3. 項目ごとの再生ボタンで実行します
 
-## 📞 Contact
+* ロックボタンで値を記録することができます
+* リフレッシュボタンで値をクリアできます
+* 寸法セクションではチェーンボタンでアスペクト比を維持できます
+* オートレイヤー整理のX/YはX軸順かY軸順かを選択できます
+* オートレイヤー整理の↕ボタンはレイヤーの配列順を逆転させます
 
-- Discord: #tomimoto5151
+## 📞 コンタクト
+
+＊ Discord: #tomimoto5151
